@@ -32,6 +32,7 @@ body, html {
     color: white;
   }
 
+
   .header {
     margin-top: 100px;
     text-align: center;
@@ -55,61 +56,208 @@ body, html {
     text-underline-position: under;
   }
 
+  h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding: 10px;
+    margin: 15px;
+  }
+
+  .titlefont {
+    font-family: 'Source Serif Pro', serif;
+    letter-spacing: 3px;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-left: 350px;
+  }
+
+  .bodyfont {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1em;
+    padding-left: 350px;
+  }
+
+  .captions {
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    padding-left: 350px;
+  }
+
+  a {
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    color: #5e1726;
+    font-size: .85em;
+
+  }
 
   /* Main content */
   .main {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
     display: grid;
-    font-family: 'Source Serif Pro', serif;
-    letter-spacing: 3px;
     font-size: 1em;
-    grid-template-columns: 25em 60em;
+    grid-template-columns: 20em 60em;
     margin: 4em;
     padding: 4em;
   }
-  
-  .main > div {
-    font-size: 1em;
-  }
-  
+
   .name {
    border-right: 0.2px solid gray;
    text-transform: uppercase;
    }
 
-   .colors {
+  .colors {
+    font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
     display: flex;
     flex: 20%;
     padding: 10px;
     margin: 15px;
-    font-family: sans-serif;
    }
 
-   img {
+  img {
     border-radius: 10px;
     padding: 5px;
     padding-bottom: 40px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
     margin-right: 15px;
    }
 
-   .alabaster:hover .image{
+  /* Alabaster color section */
+  .alabaster:hover .image{
     opacity: 0.7;
     cursor: pointer;
    }
 
-   .alabaster:hover .texto{
+  .alabaster:hover .hexnumber1{
     opacity: 1;
    }
 
-
-   .texto {
+  .hexnumber1 {
+    color: #A4A465;
     text-align: center;
     position: relative;
-    padding-right: 10px;
-    top: -150px;
+    padding-right: 12px;
+    top: -140px;
     opacity: 0;
+   }
+
+  .text1 {
+    text-align: center;
+    position: relative;
+    padding-right: 12px;
+    top: -89px;
+   }
+
+  /* Viridian color section */
+   .viridian:hover .image{
+    opacity: 0.7;
+    cursor: pointer;
+   }
+
+  .viridian:hover .hexnumber2{
+    opacity: 1;
+   }
+
+  .hexnumber2 {
+    color: #2E6156;
+    text-align: center;
+    position: relative;
+    padding-right: 12px;
+    top: -140px;
+    opacity: 0;
+   }
+
+  .text2 {
+    text-align: center;
+    position: relative;
+    padding-right: 12px;
+    top: -89px;
+   } 
+  
+  /* Castleton Green color section */
+   .castletongreen:hover .image{
+    opacity: 0.7;
+    cursor: pointer;
+   }
+
+  .castletongreen:hover .hexnumber3{
+    opacity: 1;
+   }
+
+  .hexnumber3 {
+    color: #2E6156;
+    text-align: center;
+    position: relative;
+    padding-right: 12px;
+    top: -140px;
+    opacity: 0;
+   }
+
+  .text3 {
+    text-align: center;
+    position: relative;
+    padding-right: 12px;
+    top: -89px;
+   }
+
+    /* Wine color section */
+   .wine:hover .image{
+    opacity: 0.7;
+    cursor: pointer;
+   }
+
+  .wine:hover .hexnumber4{
+    opacity: 1;
+   }
+
+  .hexnumber4 {
+    color: #DF7C91;
+    font-size: .9em;
+    text-align: center;
+    position: relative;
+    padding-right: 12px;
+    top: -140px;
+    opacity: 0;
+   }
+
+  .text4 {
+    text-align: center;
+    position: relative;
+    padding-right: 12px;
+    top: -89px;
+    letter-spacing: 1.5px;
+   }
+
+  /* Smoky Black color section */
+  .smokyblack:hover .image{
+    opacity: 0.7;
+    cursor: pointer;
+   }
+
+  .smokyblack:hover .hexnumber5{
+    opacity: 1;
+   }
+
+  .hexnumber5 {
+    color: #ebebeb;
+    font-size: .9em;
+    text-align: center;
+    position: relative;
+    padding-right: 12px;
+    top: -140px;
+    opacity: 0;
+   }
+
+  .text5 {
+    text-align: center;
+    position: relative;
+    padding-right: 12px;
+    top: -89px;
    }
 
